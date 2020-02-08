@@ -18,6 +18,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 # search the coordinates of the face in the image
 faces = face_cascade.detectMultiScale(frame, scaleFactor=1.05, minNeighbors=5)
 
+# put up a coordinate rectangle on the detected face
 for x, y, w, h in faces:
     camera_face_detected_image = cv2.rectangle(frame, (x, y), (x + w, w + h), (0, 255, 0), 3)
 
