@@ -3,11 +3,11 @@
 #### The repository contains sample python codes for various usage.
 
 ## Find out pip2 version & Update
-`which pip2`
+`which pip2` </br>
 `sudo -H pip2 install --upgrade pip`
 
 ## Find out pip3 version & Update
-`which pip3`
+`which pip3` </br>
 `sudo -H pip3 install --upgrade pip`
 
 ## pip Uninstall
@@ -32,8 +32,6 @@ Qt is available under both commercial licenses and open source GPL 2.0, GPL 3.0,
 qt.qpa.plugin: Could not find the Qt platform plugin "cocoa" in ""
 This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
 ```
-Fix : Install cocoa package in QT from `homebrew` <br/>
-`brew install qt`
 
-`brew install pyqt5`
-`pip install PyQt5`
+Fix : Downgrade OpenCV version </br>
+`pip install opencv-python==4.1.2.30`
