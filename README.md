@@ -28,7 +28,7 @@ A publicly listed company, and the Qt Project under open-source governance, invo
 Qt is available under both commercial licenses and open source GPL 2.0, GPL 3.0, and LGPL 3.0 licenses.
 ```
 
-```java
+```text
 qt.qpa.plugin: Could not find the Qt platform plugin "cocoa" in ""
 This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
 ```
