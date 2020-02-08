@@ -24,10 +24,13 @@ print(faces)
 # where (0,255,0) is the RGB of the border
 # 3 is the padding size
 for x, y, w, h in faces:
-    outline_image = cv2.rectangle(image, (x, y), (x + w, w + h), (0, 104, 246), 4)
+    outline_image = cv2.rectangle(image, (x, y), (x + w, w + h), (0, 255, 0), 4)
 
 # show the numpy converted matrix as image
 cv2.imshow("outlined-face-image", outline_image)
+
+# save the outlined image
+cv2.imwrite("detected-face.jpg", outline_image)
 
 # wait until user performs a click operation
 cv2.waitKey(0)
