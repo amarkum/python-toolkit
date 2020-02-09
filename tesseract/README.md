@@ -44,3 +44,14 @@ OCR Engine Modes:
   2    Legacy + LSTM engines.
   3    Default, based on what is available.
 ```
+
+### Pre-processing Technique
+
+There are several pre-processing techniques that is used on images to removes distraction. <br/>
+
+```text
+Pre-processing Technique
+  0    Rescaling - INTER_AREA, INTER_CUBIC, INTER_LINEAR
+  1    Blurring - Averaging, Gaussian blurring, Median blurring, Bilateral filtering
+  2    Thresholding - Simple Threshold, Adaptive Threshold, Otsu’s Threshold
+```
