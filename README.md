@@ -16,3 +16,6 @@
 ## Uninstall pip
 `sudo -H pip3 uninstall pip`
 
+## Install a package via pip | skip cache directory
+`pip install matplotlib --no-cache-dir`
+
