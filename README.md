@@ -19,3 +19,10 @@
 ## Install a package via pip | skip cache directory
 `pip install matplotlib --no-cache-dir`
 
+## JupyterLab can be installed using conda or pip. 
+`pip install notebook`
+ <br/> Congratulations, you have installed Jupyter Notebook! 
+
+## To run the notebook, run the following command at the Terminal 
+`jupyter notebook`
+
