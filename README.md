@@ -21,11 +21,11 @@
 
 ## JupyterLab notebook or jupyter lab can be installed using conda or pip. 
 `pip install notebook`
-`pip install jupyterlab`
- <br/> Congratulations, you have installed Jupyter Notebook! 
+<br/>`pip install jupyterlab`
+
 
 ## To run the jupyter notebook or jupyter lab, run the following command at the Terminal 
 `jupyter notebook`
-`jupyter lab`
+<br/>`jupyter lab`
 
 
