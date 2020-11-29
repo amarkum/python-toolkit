@@ -5,6 +5,19 @@
 ## Install Python
 `brew install python`
 
+## Install pip
+If script is not available,supply curl command to download file and execute it.
+`python get-pip.py`
+This will install pip for the provided python.
+
+If python links to => 3.7
+pip will be installed for 3.7, and all the dependecy will go for 3.7
+
+If python link to python3, get-pip.py will install pip3
+If python link to python2, get-pip.py will install pip2
+
+The dependecies are generally stored in site package in `/Library/Python`
+
 ## Find out pip2 version & Update
 `which pip2` </br>
 `sudo -H pip2 install --upgrade pip`
