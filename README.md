@@ -47,7 +47,7 @@ Install `virtualenv` using `sudo` if not already present
 `$ sudo pip install virtualenv`
 
 ### Create Envitonment
-`$ python3 -m pip ven virtual`
+`$ python3 -m ven virtual`
 
 
 ### Activate Envitonment
