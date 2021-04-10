@@ -19,7 +19,7 @@ If python link to python2, get-pip.py will install pip2
 The dependecies are generally stored in site package in `/Library/Python`
 
 Download the get-pip.py <br/>
-`$ wget https://bootstrap.pypa.io/get-pip.py -o get-pip.py` <br/>
+`$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` <br/>
 `$ python3 get-pip.py` <br/>
 
 ## Upgrading pip
