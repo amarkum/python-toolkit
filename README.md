@@ -63,3 +63,7 @@ Install `virtualenv` using `sudo` if not already present
 
 ## Remove CommandLineTools from MacOS
 `$ sudo rm -rf /Library/Developer/CommandLineTools`
+
+## Find out which Python version pip points to
+$ `pip -V`
+
