@@ -53,3 +53,11 @@ Install `virtualenv` using `sudo` if not already present
 ### Activate Envitonment
 `$ source virtual/bin/activate`
 
+
+## Install pip
+Download the get-pip.py 
+`$ wget https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+`$ python3 get-pip.py`
+
+## Remove CommandLineTools from MacOS
+`$ sudo rm -rf /Library/Developer/CommandLineTools`
