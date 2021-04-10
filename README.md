@@ -41,4 +41,15 @@ The dependecies are generally stored in site package in `/Library/Python`
 `jupyter notebook`
 <br/>`jupyter lab`
 
+## Creating a Virtual Environment
+Install `virtualenv` using `sudo` if not already present
+
+`$ sudo pip install virtualenv`
+
+### Create Envitonment
+`$ python3 -m pip ven virtual`
+
+
+### Activate Envitonment
+`$ source virtual/bin/activate`
 
