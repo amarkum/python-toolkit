@@ -18,6 +18,14 @@ If python link to python2, get-pip.py will install pip2
 
 The dependecies are generally stored in site package in `/Library/Python`
 
+Download the get-pip.py <br/>
+`$ wget https://bootstrap.pypa.io/get-pip.py -o get-pip.py` <br/>
+`$ python3 get-pip.py` <br/>
+
+## Upgrading pip
+`$ pip install --upgrade pip`
+
+
 ## Find out pip2 version & Update
 `which pip2` </br>
 `sudo -H pip2 install --upgrade pip`
@@ -52,12 +60,6 @@ Install `virtualenv` using `sudo` if not already present
 
 ### Activate Envitonment
 `$ source virtual/bin/activate`
-
-
-## Install pip
-Download the get-pip.py <br/>
-`$ wget https://bootstrap.pypa.io/get-pip.py -o get-pip.py` <br/>
-`$ python3 get-pip.py` <br/>
 
 ## Remove CommandLineTools from MacOS
 `$ sudo rm -rf /Library/Developer/CommandLineTools`
