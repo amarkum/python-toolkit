@@ -59,6 +59,8 @@ Install `virtualenv` using `sudo` if not already present
 ### Create Envitonment
 `$ python3 -m venv virtual`
 
+### Run a flask Service in the background
+`sudo nohup python3 -u ./main.py > output.log &`
 
 ### Activate Envitonment
 `$ source virtual/bin/activate`
