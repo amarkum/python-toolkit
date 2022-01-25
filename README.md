@@ -1,6 +1,6 @@
 ## Python Toolkits
 
-#### The repository contains sample python codes for various usage.
+#### The repository contains python codes with different libraries.
 
 ## Install Python
 `brew install python`
@@ -44,7 +44,6 @@ Download the get-pip.py <br/>
 `pip install notebook`
 <br/>`pip install jupyterlab`
 
-
 ## To run the jupyter notebook or jupyter lab, run the following command at the Terminal 
 `jupyter notebook`
 <br/>`jupyter lab`
@@ -59,14 +58,8 @@ Install `virtualenv` using `sudo` if not already present
 ### Create Envitonment
 `$ python3 -m venv virtual`
 
-### Run a flask Service in the background
-`sudo nohup python3 -u ./main.py > output.log &`
-
 ### Activate Envitonment
 `$ source virtual/bin/activate`
-
-## Remove CommandLineTools from MacOS
-`$ sudo rm -rf /Library/Developer/CommandLineTools`
 
 ## Find out which Python version pip points to
 $ `pip -V`
